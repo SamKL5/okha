@@ -1,0 +1,1019 @@
+/* Крыша */
+ .header-new{
+    background-color: #1D98DB;
+    /* border-bottom: 2px white solid; */
+    height: 70px;
+}
+.nav-item{
+    padding: 0px 6px !important;
+}
+.nav-link{
+    color: white !important;
+    font-size: 17px;
+    font-weight: 400;
+}
+.nav-link:hover{
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+.dropdown-menu{
+    padding: 0;
+    margin: 0;
+    background-color: #1D98DB;
+    border-radius: 0;
+    outline: 2px solid white;
+    outline-style: auto;
+
+}
+.dropdown-menu > a{
+    color: white;
+}
+.dropdown-menu > a:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #1D98DB;
+}
+ul.header-menu > li{
+    padding-right: 25px;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.logo{
+    width: auto;
+    height: 45px;
+}
+.navbar-toggler{
+    border: 2px solid white !important;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+/* Заголовки на страницах */
+.title-h1{
+    width: fit-content;
+    border-bottom: 4px solid #1D98DB;
+}
+/* Первая секция */
+
+.first-info{
+    background-image: url('../files/index/back.png');
+    background-size: cover;
+    background-position: left;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: -10px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 150px;
+}
+.first-info > div > .p-main{
+    /* font-size: 35px; */
+    width: 60%;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+}
+.first-info > div > p{
+    /* margin-top: -20px; */
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.first-info > div > p >span{
+    /* margin-top: -20px; */
+    color: #1D98DB;
+}
+
+.first-info > div > .p-sale{
+    padding-top: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+
+.btn-sale{
+    background: #1D98DB;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 20px;
+    line-height: 25px;
+    color: white;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+}
+.btn-sale:hover{
+    /* font-weight: bold; */
+    color: white;
+    background: #1E71B8;
+}
+.second-info {
+    margin-top: 700px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    left: 0;
+    width: 100%;
+}
+.second-info > .p-main{
+    text-align: left;
+    font-size: 22px;
+    /* font-weight: 700; */
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.btn-slider{
+    width: 100%;
+    display: none;
+}
+.btn-slider > button{
+
+    width: 50%;
+    background-color: #1D98DB;
+    color: white;
+    border: none;
+}
+.btn-slider > button:hover{
+    background-color: white;
+    color: #1D98DB;
+    outline-offset:-3px;
+    outline: 3px solid #1D98DB;
+}
+/* Карточка продукта */ 
+
+.back-product{
+    color: black !important;
+    list-style: none;
+    display: block;
+    width: 200px;
+    height: 330px;
+    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 7%);
+    margin-bottom: 4%;
+
+}
+.back-product:hover{
+    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 20%);
+    text-decoration: none;
+}
+.back-product > a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 230px;
+    /* background: #ffffff; */
+    padding: 10%;
+}
+.back-product > a > div{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+.back-product > a > p{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    word-break: break-all;
+}
+.back-product > a > hr{
+    margin: 0; 
+    margin-top: 25px;
+    margin-bottom: 5px;
+    border: 1px solid rgba(56, 56, 56, 0.411);
+    line-height: 0;
+}
+div.price{
+    background: #ffffff00;
+    height: 90px;
+    padding: 0% 5% 10% 5%;
+}
+div.price > p{
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: auto;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+.btn-add{
+    background: #1D98DB;
+    border-radius: 0px !important;
+    font-size: 14px;
+    width: auto;
+    font-weight: bold;
+    padding: 5px 15px;
+    line-height: 25px;
+    color: white;
+    /* float: right; */
+    /* filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25)); */
+}
+.btn-add > span{
+    display: inherit;
+    background-image: url("../files/icons/add.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 2px;
+    height: 15px;
+    width: 20px;
+    border: none;
+
+}
+.btn-add:hover{
+    color: white;
+    background: #136795;
+}
+.count_add{
+    width: auto;
+    padding: 0 15% 0 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border-radius: 8px; */
+    font-size: 16px;
+    height: 36px;
+    font-weight: bold;
+    line-height: 25px;
+    color: white;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+}
+.count_add > a{
+    background: #1D98DB;
+    color:white;
+    text-align: center;
+    display: block;
+    height: auto;
+    cursor: pointer;
+    width: 33%;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+.count_add > a:hover{
+    background: #136795;
+    text-decoration: none;
+}
+.val_prod:hover{
+    text-decoration: none;
+    color: black;
+}
+.val_prod{
+    background-color: #FFF !important;
+    height: auto;
+    cursor:default !important;
+    text-decoration: none;
+    color: black !important;
+}
+.products{
+    /* row-gap: 2%; */
+    width: 100%;
+    /* padding: 0px 2%; */
+    /* column-gap: 2%; */
+    margin-top: 6%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-catalog{
+    width: 80%;
+    padding: 0px 2%;
+    column-gap: 1%;
+    margin-top: 6%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.admin-img{
+    width: 100px;
+    height: 100px;
+}
+/* Подвал */
+.new-footer{
+    /* border-top: 3px solid #1D98DB; */
+    background-color:#1E71B8;
+    height: auto;
+}
+.new-footer > div{
+    display: flex;
+}
+.new-footer > div > div{
+    width: 33%;
+    height: auto;
+    color: white;
+    /* background-color: black; */
+}
+.ft-f > img{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.ft-f > p{
+    width: auto;
+    height: auto;
+}
+.ft-s{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.footer-two{
+    float: right;
+    list-style: none;
+    color: #ffffff !important;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2px;
+} 
+.new-footer-ul{
+    float: left;
+}
+.new-footer-ul2{
+    margin-left: 40px;
+}
+.new-footer-ul > li{
+    padding: 0 !important;
+    height: 35px;
+}
+.new-footer-ul > li > .dropdown-menu{
+    background-color: #1E71B8;
+}
+.new-footer-ul > li > .dropdown-menu > a:hover{
+    font-weight: bold;
+    color: #1E71B8;
+}
+.new-footer-ul > li > a{
+    color: white !important;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px;
+    height: 100%;
+}
+.new-footer-ul > li > a:hover{
+    color: #1D98DB !important;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    /* padding: 2px; */
+}
+
+/* Третья секция*/
+.third-info{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background: #1D98DB;
+}
+.third-info > div{
+    padding: 100px 50px 100px 170px;
+    width: 50%;
+}
+.third-info > div > p{
+    color:  white;
+    font-size: 18px;
+}
+.th-img{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-image: url('../files/index/about.png');
+}
+
+
+
+
+
+
+/* Четвертая секция*/
+.fourth-info {
+    margin-top: 500px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    display: flex;
+}
+.slide {
+    display: flex;
+    align-items: flex-end;
+    height: 52vh;
+    border-radius: 0px;
+    margin: 5px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+  }
+  
+  .slide p {
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    font-size: 25px;
+    /* bottom: 20px;
+    left: 20px; */
+    margin-bottom: 8px;
+    margin-left: 8px;
+    /* margin: 0; */
+    opacity: 0;
+  }
+  
+  .slide.active {
+    flex: 10;
+  }
+  
+  .slide.active p {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+  }
+
+/* view product */
+.view-f{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.img-view{
+    transition: 1s;
+    width: 40%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* .img-view:hover{
+    background-position: 202px 600px;
+    transform: scale(2);
+} */
+
+.name-view{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10% 4% ;
+    width: 60%;
+}
+.name-view > p{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+}
+.name-view > button{
+    width: 123px;
+    float: none;
+}
+.name-view > .count_add{
+    width: 123px;
+    padding: 0;
+}
+.view-s{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+/* .view-s > div{
+    width: 50%;
+    padding-right: 50px;
+} */
+.zag{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+}
+ul.oglavl {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+    }
+    
+ul.oglavl li {
+    border-bottom: 1px dotted #C2C2C2; /* Необязателен. Здесь задается толщина, тип и цвет точек */
+    position: relative;
+    padding: 0;
+    margin-bottom:5px; /* Необязателен. Задается для установки расстояния между блоками li */
+    }
+    
+ul.oglavl li span {
+    background-color: #FFF; /* Это необходимо, чтобы перекрыть точки фоном */
+    margin: 0;
+    }
+
+ul.oglavl li span.text, ul.oglavl li span.page {
+    bottom: -6px; /* Смещаем значимые блоки, чтобы они перекрыли точки */
+    }
+
+ul.oglavl span.text {
+    position :relative;
+    margin-right:15em; /* Задается чтобы текст не заходил на номера страниц */
+    padding-right:5px; /* Необязателен. Задается чтобы точки не подходили вплотную к концу текста */
+    font-size: 18px;
+    }
+    
+ul.oglavl span.page {
+    position: absolute;
+    right: 0;
+    padding-left:2px; /* Необязателен. Задается чтобы точки не подходили вплотную к номерам страниц */
+    font-size: 18px;
+    }
+
+/* .view-t{
+    margin-top: 50px;
+} */
+.link-to-add{
+    cursor: pointer;
+    margin-top: 5px;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.delete-char{
+    cursor: pointer;
+    margin: 0 10px;
+    padding-top: 38px;
+}
+
+/* Каталог */
+.catalogpic{
+    background-image: url('../files/test.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 70px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: #313131;
+    height: 50vh;
+}
+.catalogpic > div > p{
+    padding-top: 39vh;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.searchname{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    width: 100%;
+    padding: 5px 40px;
+    background-color: #1D98DB;
+}
+.searchname > form{
+    width: 100%;
+}
+.searchname > form >  input{
+    width: 79%;
+    display: initial;
+    height: 35px;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.searchname > form >  .btn-search{
+    width: 20%;
+    vertical-align: middle;
+    height: 35px;
+    margin-top: 0px;
+}
+.filter{
+    margin-top: 6%;
+    width: 20%;
+    /* margin-right: 3%; */
+    height: 100%;
+    background: #1D98DB;
+    padding: 20px;
+}
+.filter > h1{
+    color: white;
+    font-size: 14px;
+    TEXT-ALIGN: center;
+    font-weight: 600;
+}
+.catalog{
+    margin-top: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+div.filter > form > input{
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.input-char{
+    color: white;
+    padding: 10px;
+    background-color: unset;
+    border: 1px solid white;
+    height: 26px;
+    margin-bottom: 10px;
+    border-radius: 0;
+    cursor: pointer;
+}
+.input-char:hover{
+    background-color: white;
+}
+.input-char > option{
+    color:#1D98DB;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600
+}
+.input-char > option:hover{
+    cursor: pointer;
+}
+.select-catalog{
+    width: 100%;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+}
+.select-catalog:hover{
+    background-color: unset;
+}
+.price-filter{
+    font-weight: 700;
+    font-size: 14px;
+}
+.p-char{
+    justify-content: space-between;
+    font-weight: 700;
+    display: flex;
+    color: #FFF;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 5px;
+    align-items: center;
+}
+.p-char > span, .filter > h1 > span{
+    transform: rotate(180deg);
+    background-image: url('/files/down.png');
+    background-size: cover;
+    display: inline-table;
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+    border-spacing: 0px;
+}
+.filter > form > hr{
+    border-top: 1px solid rgb(255 255 255 / 100%);
+    margin:0;
+}
+
+
+.catalog-check[type="checkbox"]{
+    display: none;
+}
+.catalog-check:checked{
+    width: 200px;
+}
+.catalog-check-label{
+    cursor: pointer;
+    display: flex;
+    color: white;
+    align-items: center;
+    column-gap: 6px;
+}
+
+
+.catalog-check-label:before{
+    content: " ";
+    align-content: center;
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    text-indent: 0px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-image: initial;
+    vertical-align: middle;
+}
+.catalog-check:checked + .catalog-check-label:before{
+    content: url('../files/icons/check.svg');
+    /* content: url('data:image/svg+xml;utf8,&lt;svg xmlns="../files/icons/check.svg" width="32" height="32"> fill="#FFF"/svg>'); */
+    
+    
+    /* filter: invert(50%) sepia(97%) saturate(1539%) hue-rotate(172deg) brightness(89%) contrast(91%); */
+    background: #FFF;
+}
+.catalog-check-label:hover{
+    font-weight: 600;
+}
+.catalog-check-label:hover::before{
+    background-color: white;
+}
+
+/* input:disabled + .catalog-check-label:before {
+    background: #eee;
+    color: #aaa;
+  } */
+
+.prs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.prs > div{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.prs > span{
+    width: 20%;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+.prs > div > input{
+    text-align: center;
+    background-color: unset;
+    font-size: 15px;
+    border-radius: 0;
+    padding: 0 6px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.prs > div > input:hover{
+    font-weight: 600;
+    background-color: white;
+    color: #1D98DB;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.filter > form > p{
+    margin: 0;
+    color:  white;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+#prices{
+    width: 100%;
+    display: block;
+}
+.btn-search{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1D98DB;
+    border-radius: 0;
+}
+.btn-search:hover{
+    color: white;
+    background-color: #1D98DB;
+    border: 2px solid white;
+
+}
+.btn-clear{
+    width: 100%;
+    border: 2px solid white;
+    background-color: unset;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.btn-clear:hover{
+    color: #1D98DB;
+    background-color: white;
+}
+.filter > form > .form-group {
+    margin: 0;
+}
+
+
+/*  О нас */
+.about-info{
+    padding-top: 120px;
+    width: 100%;
+
+}
+/* Контакты */
+.site-contact{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.contact{
+    padding: 3%;
+    border-left: 5px solid #1D98DB;
+    border-bottom: 5px solid #1D98DB;
+    /* background-color: #1D98DB; */
+}
+.maps{
+    margin-top: 100px;
+}
+.contact > h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.contact > p{
+    font-size: 14px;
+    font-weight: 500;
+}
+/* Корзина */
+.korzina{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    right: 6%;
+    color: #1D98DB;
+}
+.korzina:hover{
+    text-decoration: none;
+    color: #1D98DB;
+}
+
+.korzina > span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../files/icons/add.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.korzina > span > span{
+    left: 17px;
+    top: -8px;
+    padding-top: 2px;
+    position: absolute;
+    background-color: white;
+    border-radius: 23px;
+    width: 22px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+.korzina > p{
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.p-korz{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.div-img-korz{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;  
+    display: block;
+    width: 100px;
+}
+.price-korz{
+    width: 140px;
+}
+.tovar-korz{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    justify-content:space-between;
+    padding: 4% 0%;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.img-korz{
+    width: auto;
+    height: 75px;
+}
+.name-korz{
+    min-width: 200px;
+    max-width: 400px;
+    width: auto;
+}
+/* .tovar-korz > div{
+    padding-top: 20px;
+}
+.tovar-korz > div >p{
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    width: 350px;
+    display: block;
+} */
+.prodprice-korz{
+    width: 100px;
+}
+.prodprice-korz > p{
+    margin: 0;
+}
+.btn-accept{
+    background-color: #1D98DB;
+    color: white;
+}
+.btn-zakaz{
+    width: auto;
+    background-color:#1D98DB;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+.btn-zakaz:hover{
+    background-color: white;
+    color: #1D98DB;
+    border: 3px solid #1D98DB;
+}
+.form-result{
+    display: none;
+}
+.address-korz {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    column-gap: 5%;
+}
+.address-korz > p{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.address-korz > div{
+    width: 40%;
+}
+.form-result > div > label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.address-korz > div > label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-success-zakaz{
+    width: auto;
+    background-color:#1D98DB;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+.btn-success-zakaz:hover{
+    background-color: white;
+    color: #1D98DB; 
+    border: 3px solid #1D98DB;
+}
+/* KOnstructor */
+
+.material-img{
+    border-radius: 100%;
+}
+.konstructor{
+    width: 100%;
+    height: 740px;
+    margin-top: 80px;
+    /* border:  1px solid black; */
+}
+.canvas{
+    margin-top: 70px;
+    border:  1px solid black;
+}

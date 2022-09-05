@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'ProzaLibre';
+    src: url('../fonts/ProzaLibre-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Prompt';
+    src: url('../fonts/Prompt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'AvantGardeCTT';
+    src: url('../fonts/avantgardectt.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap'); */
